@@ -1,5 +1,5 @@
 html {
-    margin: 0px;
+    margin: 0;
     text-decoration: none;
     padding: 0;
 }
@@ -13,12 +13,12 @@ body {
 a {
     background-color: rgb(255, 232, 202);
 }
+
 #site {
     display: flex;
     flex-direction: column;
     max-width: 700px;
     background-color: whitesmoke;
-    margin: 0 10%;
 }
 
 #first {
@@ -30,7 +30,6 @@ a {
         margin-right: auto;
         background-color: tan;
         margin-left: 15px;
-        width: 50px;
         flex: 0 1 50px;
     }
     #first span {
