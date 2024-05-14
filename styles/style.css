@@ -31,6 +31,7 @@ a {
         background-color: tan;
         margin-left: 15px;
         width: 50px;
+        flex: 0 1 50px;
     }
     #first span {
         display: flex;
@@ -46,7 +47,7 @@ a {
         background-color: rgb(248, 227, 200);
         flex: 1 1 content;
         align-self: center;
-        font-size: 14px;
+        font-size: 12px;
         font-weight: 550;
     }
 
